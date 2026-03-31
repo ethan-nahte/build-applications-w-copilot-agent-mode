@@ -1,0 +1,85 @@
+/* App-wide Bootstrap styles and overrides */
+body {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8f9fa 100%);
+  color: #343a40;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6f42c1 0%, #20c997 100%) !important;
+  box-shadow: 0 2px 8px rgba(32, 201, 151, 0.08);
+}
+
+.navbar-brand span {
+  color: #fff !important;
+  text-shadow: 1px 1px 2px #6f42c1;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe066 !important;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(111, 66, 193, 0.08);
+  border: none;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th {
+  background: #6f42c1;
+  color: #fff;
+  border: none;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3e9ff;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #e6fcf5;
+}
+.table-bordered {
+  border: 2px solid #20c997;
+}
+.table td {
+  border: none;
+}
+
+.btn {
+  margin-right: 0.5rem;
+  background: linear-gradient(90deg, #20c997 0%, #6f42c1 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(32, 201, 151, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover, .btn:focus {
+  background: linear-gradient(90deg, #6f42c1 0%, #20c997 100%);
+  color: #ffe066;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6f42c1;
+  text-shadow: 1px 1px 2px #e0e7ff;
+}
+
+a {
+  color: #20c997;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: #6f42c1;
+  text-decoration: underline;
+}
